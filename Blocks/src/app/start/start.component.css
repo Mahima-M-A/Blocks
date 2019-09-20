@@ -1,0 +1,40 @@
+html,body,section{
+  margin:0;
+  padding:0;
+}
+.bg{
+  height: auto;
+  min-height: 100vh;
+  background: url("/assets/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+input {
+  display: block;
+  position: absolute;
+  cursor: pointer;
+}
+img{
+  display:block;
+  position: absolute;
+  top:10%;
+  left:27%;
+}
+#btn1{
+  top: 40%;
+  left: 43%;
+}
+#btn2{
+  top: 55%;
+  left: 43%;
+}
+#btn3{
+  top: 70%;
+  left: 43%;
+}
+input:active {
+  transform: translateY(4px);
+}
